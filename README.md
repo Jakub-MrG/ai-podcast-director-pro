@@ -15,6 +15,13 @@ Najrýchlejší spôsob, ako začať:
 2. Stiahni si najnovší súbor `AI_Director_Pro.exe`.
 3. Spusti ho (nepotrebuješ inštalovať Python). Aplikácia si sama vytvorí konfiguračný súbor a prevedie ťa prvotným nastavením.
 
+## 🤖 Príbeh vývoja & AI Spolupráca
+Tento softvér je dôkazom, že ak máte dobrý nápad, jasnú víziu a trpezlivosť, nepotrebujete byť programátorom, aby ste vytvorili profesionálny produkt. 
+
+Celý zdrojový kód bol vyvinutý v úzkej, iteratívnej spolupráci s umelou inteligenciou **Gemini 3.1 Pro** (Advanced tier). Moja rola spočívala v architektúre produktu, definovaní logiky strihu, UX/UI dizajne a tvrdom testovaní v praxi, zatiaľ čo Gemini fungoval ako môj "Senior Developer" a písal samotný kód. 
+
+Nech je tento projekt inšpiráciou pre všetkých tvorcov – umelá inteligencia je tu na to, aby odstránila technické bariéry a umožnila vašim nápadom ožiť.
+
 ## 💡 O autorovi
 **Jakub Mr. G** Tvorca podcastu #NEMAMCASNUDITSA a autor sebarozvojového konceptu **Stroj času**. Svoje dlhoročné skúsenosti z optimalizácie procesov (Kaizen) a krízového manažmentu pretavujem do nástrojov, ktoré komunite pomáhajú pracovať efektívnejšie.
 
