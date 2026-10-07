@@ -715,9 +715,11 @@ class AIDirectorProGUI(ctk.CTk):
         webbrowser.open("https://www.youtube.com/@JakubMrG?sub_confirmation=1")
 
     def register_kill_switch(self):
-        try: keyboard.unhook_all()
-        except: pass
-        keyboard.add_hotkey(app_settings["kill_switch_hotkey"], self.toggle_ai_via_hotkey)
+        try:
+            keyboard.unhook_all()
+            keyboard.add_hotkey(app_settings["kill_switch_hotkey"], self.toggle_ai_via_hotkey)
+        except Exception:
+            log_messages.append("⚠️ Kill Switch skratka nie je dostupná na tomto systéme.")
 
     def toggle_ai_via_hotkey(self):
         global ai_enabled
